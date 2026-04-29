@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Start a Project &mdash; SeamlessPOC</title>
+  <meta name="description" content="Start a point-of-care technology project with SeamlessPOC. Share your deployment scope, hospital environment, timeline, and project requirements.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;family=Inter:wght@400;500;600;700&amp;family=Poppins:wght@600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="SeamlessPOC home"><img src="spoclogo.png" alt="SeamlessPOC"></a>
+      <div class="nav-links">
+        <a href="solutions.html">Solutions</a>
+        <a href="healthcare-environments.html">Environments</a>
+        <a href="case-studies.html">Case Studies</a>
+        <a href="why-seamless.html">Why Seamless</a>
+        <a href="about.html">About</a>
+      </div>
+      <a href="start-project.html" class="nav-cta active">
+        <span>Start a Project</span>
+        <span class="nav-cta-arrow" aria-hidden="true">&rarr;</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu">
+      <a href="solutions.html">Solutions</a>
+      <a href="healthcare-environments.html">Environments</a>
+      <a href="case-studies.html">Case Studies</a>
+      <a href="why-seamless.html">Why Seamless</a>
+      <a href="about.html">About</a>
+      <a href="start-project.html" class="nav-cta-mobile active">Start a Project</a>
+    </div>
+  </nav>
+
+  <!-- Project Hero -->
+  <main>
+    <section class="start-hero">
+      <div class="container start-hero-grid">
+        <div class="start-hero-copy reveal">
+          <div class="section-tag">Project Intake</div>
+          <h1>Start a Point-of-Care Technology Project</h1>
+          <p>Tell us about your deployment, facility environment, timeline, and scope. SPOC will review the details and help identify the right next step.</p>
+
+          <div class="start-contact-card">
+            <span>Prefer to talk directly?</span>
+            <a href="tel:+16789904806">(678) 990-4806</a>
+          </div>
+
+          <div class="start-hero-points" aria-label="Project support highlights">
+            <div>
+              <strong>Healthcare-focused</strong>
+              <span>Built around clinical environments and operational constraints.</span>
+            </div>
+            <div>
+              <strong>Deployment-ready</strong>
+              <span>Planning, coordination, installation, testing, and support.</span>
+            </div>
+            <div>
+              <strong>System scalable</strong>
+              <span>Single departments, full facilities, and multi-site rollouts.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-form-panel reveal reveal-delay-1">
+          <div class="project-form-header">
+            <span>Project Request</span>
+            <h2>Share your project details.</h2>
+            <p>A SPOC project lead will review your request and follow up with a practical next step.</p>
+          </div>
+
+          <form class="project-form" action="mailto:info@seamlesspoc.com?subject=Project%20Request" method="post" enctype="text/plain">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="Name" autocomplete="name" required>
+              </div>
+              <div class="form-group">
+                <label for="organization">Organization</label>
+                <input type="text" id="organization" name="Organization" autocomplete="organization" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="hospital-system">Hospital System</label>
+                <input type="text" id="hospital-system" name="Hospital System" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="Email" autocomplete="email" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="Phone" autocomplete="tel" required>
+              </div>
+              <div class="form-group">
+                <label for="project-type">Project Type</label>
+                <select id="project-type" name="Project Type" required>
+                  <option value="">Select project type</option>
+                  <option>Patient Room Technology</option>
+                  <option>Digital Signage / Tracking Boards</option>
+                  <option>Mobile Computer Carts</option>
+                  <option>IT/AV Equipment Standardization</option>
+                  <option>Hemodynamics / Specialty Clinical Environment</option>
+                  <option>Multi-Facility Rollout</option>
+                  <option>Other Healthcare Technology Deployment</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="deployment-size">Deployment Size</label>
+                <select id="deployment-size" name="Deployment Size" required>
+                  <option value="">Select deployment size</option>
+                  <option>Single Room / Small Department</option>
+                  <option>Department Rollout</option>
+                  <option>Multiple Departments</option>
+                  <option>Single Facility</option>
+                  <option>Multi-Facility / Health System</option>
+                  <option>Not Sure Yet</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="timeline">Timeline</label>
+                <select id="timeline" name="Timeline" required>
+                  <option value="">Select timeline</option>
+                  <option>Immediate / Active Project</option>
+                  <option>30-60 Days</option>
+                  <option>60-90 Days</option>
+                  <option>3-6 Months</option>
+                  <option>6+ Months</option>
+                  <option>Planning / Budgeting Phase</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="Message" placeholder="Share facility details, project scope, equipment needs, room counts, constraints, or known deadlines." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full-width">
+              Submit Project Request
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="next-steps-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">What Happens Next</div>
+          <h2>A practical path from request to rollout.</h2>
+          <p>SPOC keeps the intake process focused on the information that matters for healthcare deployment: scope, environment, timeline, and coordination needs.</p>
+        </div>
+        <div class="project-step-grid">
+          <article class="project-step-card reveal">
+            <span>01</span>
+            <h3>Project Review</h3>
+            <p>We review your request against facility requirements, deployment size, equipment needs, and timeline expectations.</p>
+          </article>
+          <article class="project-step-card reveal reveal-delay-1">
+            <span>02</span>
+            <h3>Discovery Call</h3>
+            <p>A SPOC project lead confirms scope, site conditions, stakeholders, constraints, and the best route forward.</p>
+          </article>
+          <article class="project-step-card reveal reveal-delay-2">
+            <span>03</span>
+            <h3>Deployment Planning</h3>
+            <p>We help align equipment, crews, scheduling, installation standards, testing, and go-live support.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-proof-section">
+      <div class="container">
+        <div class="why-spoc-header reveal">
+          <div>
+            <div class="section-tag">Built for Healthcare Deployment</div>
+            <h2>Serious execution for active clinical environments.</h2>
+          </div>
+          <p>Healthcare technology projects require crews and coordination that understand occupied facilities, clinical workflows, infection control, room access, and operational disruption.</p>
+        </div>
+        <div class="proof-grid">
+          <div class="proof-item reveal">
+            <div class="proof-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
+            </div>
+            <div>
+              <h4>Live Facility Awareness</h4>
+              <p>Deployment work planned around patient care areas, occupied spaces, access requirements, and site readiness.</p>
+            </div>
+          </div>
+          <div class="proof-item reveal reveal-delay-1">
+            <div class="proof-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3.75h15v17.5h-15V3.75zm3.75 4.5h.008v.008H8.25V8.25zm0 4.5h.008v.008H8.25v-.008zm0 4.5h.008v.008H8.25v-.008zm4.5-9h3m-3 4.5h3m-3 4.5h3"/></svg>
+            </div>
+            <div>
+              <h4>Multi-Site Consistency</h4>
+              <p>Standardized execution across rooms, departments, facilities, and broader health system initiatives.</p>
+            </div>
+          </div>
+          <div class="proof-item reveal reveal-delay-2">
+            <div class="proof-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 13.5V3.75m0 9.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 9.75V10.5"/></svg>
+            </div>
+            <div>
+              <h4>End-to-End Coordination</h4>
+              <p>Support across planning, product alignment, procurement timing, installation, testing, go-live, and service needs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="logo-carousel-section project-logo-strip" aria-label="Trusted healthcare systems">
+      <div class="container">
+        <p class="logo-carousel-heading">Trusted by Leading Healthcare Systems</p>
+      </div>
+      <div class="logo-carousel" aria-label="Client logos">
+        <div class="logo-carousel-track">
+          <div class="logo-carousel-set">
+            <div class="logo-item logo-item-wide"><img src="healthlogos/coworkpics/hospital10.png" alt="Kaiser Permanente" loading="lazy"></div>
+            <div class="logo-item logo-item-mid"><img src="healthlogos/coworkpics/hospital8.png" alt="Emory Healthcare" loading="lazy"></div>
+            <div class="logo-item logo-item-compact"><img src="healthlogos/coworkpics/hospital2.png" alt="Children's Healthcare of Atlanta" loading="lazy"></div>
+            <div class="logo-item logo-item-wide"><img src="healthlogos/coworkpics/hospital11.png" alt="Novant Health" loading="lazy"></div>
+            <div class="logo-item logo-item-xl"><img src="healthlogos/coworkpics/hospital1.png" alt="Atrium Health" loading="lazy"></div>
+            <div class="logo-item logo-item-balanced"><img src="healthlogos/coworkpics/hospital13.png" alt="UNC Health" loading="lazy"></div>
+            <div class="logo-item logo-item-balanced"><img src="healthlogos/coworkpics/hospital5.png" alt="Northside Hospital" loading="lazy"></div>
+          </div>
+          <div class="logo-carousel-set" aria-hidden="true">
+            <div class="logo-item logo-item-wide"><img src="healthlogos/coworkpics/hospital10.png" alt="" loading="lazy"></div>
+            <div class="logo-item logo-item-mid"><img src="healthlogos/coworkpics/hospital8.png" alt="" loading="lazy"></div>
+            <div class="logo-item logo-item-compact"><img src="healthlogos/coworkpics/hospital2.png" alt="" loading="lazy"></div>
+            <div class="logo-item logo-item-wide"><img src="healthlogos/coworkpics/hospital11.png" alt="" loading="lazy"></div>
+            <div class="logo-item logo-item-xl"><img src="healthlogos/coworkpics/hospital1.png" alt="" loading="lazy"></div>
+            <div class="logo-item logo-item-balanced"><img src="healthlogos/coworkpics/hospital13.png" alt="" loading="lazy"></div>
+            <div class="logo-item logo-item-balanced"><img src="healthlogos/coworkpics/hospital5.png" alt="" loading="lazy"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo"><img src="spoclogo.png" alt="SeamlessPOC"></a>
+          <p>Healthcare technology deployment, coordination, and lifecycle support for clinical environments.</p>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <div class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="how-we-work.html">How We Work</a>
+            <a href="equipment.html">Equipment</a>
+          </div>
+        </div>
+        <div>
+          <h4>Solutions</h4>
+          <div class="footer-links">
+            <a href="solutions.html">Bedside EMR</a>
+            <a href="solutions.html">L&amp;D Carts</a>
+            <a href="solutions.html">Digital Signage</a>
+            <a href="solutions.html">Cable Management</a>
+          </div>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <div class="footer-links">
+            <a href="case-studies.html">Case Studies</a>
+            <a href="healthcare-environments.html">Environments</a>
+            <a href="why-seamless.html">Why Seamless</a>
+          </div>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <div class="footer-links">
+            <a href="start-project.html">Start a Project</a>
+            <a href="mailto:info@seamlesspoc.com">info@seamlesspoc.com</a>
+            <a href="tel:+16789904806">(678) 990-4806</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 SeamlessPOC. All rights reserved.</span>
+        <span>
+          <a href="#">Privacy Policy</a> &middot; <a href="#">Terms of Service</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
